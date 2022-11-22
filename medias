@@ -1,0 +1,10 @@
+def media():
+    global med
+    a=float(input("Tu nota uno es: "))
+    b=float(input("Tu nota dos es: "))
+    c=float(input("Tu nota tres es: "))
+    suma=a+b+c
+    med=round(suma/3, 2)
+    return
+media()
+print(f"Tu media es de {med} ")
